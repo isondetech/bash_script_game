@@ -1,8 +1,8 @@
 #!/bin/bash
 
-set -eux
+set -eu
 
-for i in {1...10}
+for i in {1..10}
 do
-    echo $i
+    echo "$i"
 done
